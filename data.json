@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Grocery Shopping",
+    "description": "Here is some test detail for this note.",
+    "color": "#ffbc00",
+    "date": "2020-10-05T14:48:00.000Z",
+    "stared": false,
+    "index": 0
+  },
+  {
+    "id": "2",
+    "name": "Assignment Submission",
+    "description": "The assignment needs to be submitted as soon as possible",
+    "color": "#67ec6b",
+    "date": "2022-06-14T14:48:00.000Z",
+    "stared": true,
+    "index": 1
+  }
+]

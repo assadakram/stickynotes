@@ -75,7 +75,7 @@ const NoteCard: React.FC<NoteProps> = ({dispatch, item, index, notes}): JSX.Elem
     drag(drop(ref));
 
     return (
-        <div ref={ref} style={{backgroundColor: item.color}} className={`${isDragging ? "opacity-40 cursor-grabbing" : ""} cursor-grab card relative min-h-64 flex flex-col justify-between rounded-lg border py-5 px-4 w-full sm:w-290 2xl:w-full`}>
+        <div ref={ref} style={{backgroundColor: item.color}} className={`${isDragging ? "opacity-40 cursor-grabbing" : ""} cursor-grab card relative min-h-64 flex flex-col justify-between rounded-lg border py-5 px-4 w-full sm:w-290 2xl:w-354`}>
             <Popup visible={visible} isEditing={true} formData={item} setVisible={setVisible} dispatch={dispatch}/>
             <ConfirmationModel visible={remove} setVisible={setRemove} title="Confirmation Model" message="Are you sure you want to delete this item?" buttonHandler={removeItem}/>
             <div onClick={() => setRemove(true)} className="opacity-0 cursor-pointer bg-black text-white rounded-full absolute -top-2 -right-2 p-1">

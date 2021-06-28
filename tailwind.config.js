@@ -7,7 +7,8 @@ module.exports = {
         64: "16rem"
       },
       width: {
-        290: '290px'
+        290: '290px',
+        354: '354px'
       },
       cursor: {
         grab: "grab",

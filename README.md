@@ -8,4 +8,4 @@ https://stickynotes-eosin.vercel.app/
 4. Filter stared notes.
 
 ## General Description
-A small demo project, created in NextJS+TypeScript. For saving and retreveing the records LocalStorage is used and for global statemanagement Context API was used. 
+A small demo project, created in ReactJS(NextJS)+TypeScript. For saving and retreveing the records LocalStorage is used and for global statemanagement Context API was used. 
